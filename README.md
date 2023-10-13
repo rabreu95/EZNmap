@@ -13,7 +13,7 @@ MAKE SURE YOU HAVE THE `eznmaplib.sh` FILE IN THE SAME DIRECTORY AS THE SCRIPT.
 
 Change the permission of the script using
 ``` 
-chmod 777 eznmap.sh 
+chmod +x eznmap.sh 
 ```
 
 Then run the script using 
