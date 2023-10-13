@@ -1,11 +1,8 @@
 #!/bin/bash
 
-opener1(){
-"Welcome to the nmap script"
-}
+opener1="Welcome to the nmap script"
 
-opener2(){
-" 
+opener2=" 
 Avalible commands:
 CVE Detection on host: cve
 DoS attack on host: dos
@@ -16,7 +13,7 @@ HTTP Enumeration: http-discov
 Basic XSS check: basic-xss
 Basic SQL Injection check: basic-sql-inject
 Basic Wordpress bruteforce: basic-wp-bf"
-}
+
 
 
 cve() {
