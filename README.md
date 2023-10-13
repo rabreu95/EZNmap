@@ -2,6 +2,8 @@
 
 This script is designed to quickly run popular nmap functions!
 
+<h3><p align=center>How to install and use EZNmap</p></h3>
+
 To use the script, First clone the repository to your local machine
 ``` git clone https://github.com/rabreu95/EZNmap.git ```
 
