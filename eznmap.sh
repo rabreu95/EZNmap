@@ -14,6 +14,6 @@ read -p ">> " speed
 echo "Please enter the command"
 read -p ">> " com
 echo "Enter a name for the output file" 
-read -p ">>" output
+read -p ">> " output
 
 $com
