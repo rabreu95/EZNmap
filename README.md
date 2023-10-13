@@ -1,6 +1,6 @@
 <h1><p align=center>EZ Nmap Script</p></h1>
 
-This script is designed to quickly run popular nmap functions!
+This script is designed to quickly run popular nmap functions! You must have nmap installed for this to work, These scripts only work on linux.
 
 <h3><p align=center>How to install and use EZNmap</p></h3>
 

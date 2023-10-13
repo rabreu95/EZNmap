@@ -1,11 +1,11 @@
 #!/bin/bash
 
 opener1(){
-    echo "Welcome to the nmap script"
+"Welcome to the nmap script"
 }
 
 opener2(){
-    echo " 
+" 
 Avalible commands:
 CVE Detection on host: cve
 DoS attack on host: dos
