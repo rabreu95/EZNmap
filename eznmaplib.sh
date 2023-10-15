@@ -12,7 +12,9 @@ Syn Port scan: syn
 HTTP Enumeration: http-discov
 Basic XSS check: basic-xss
 Basic SQL Injection check: basic-sql-inject
-Basic Wordpress bruteforce: basic-wp-bf"
+Basic Wordpress bruteforce: basic-wp-bf
+Scans top 1000 ports: top-ports
+FTP brute force attack: ftp-bf"
 
 
 
@@ -46,6 +48,14 @@ basic-sql-inject() {
 
 basic-wp-bf() {
     nmap -sV -T$speed -v --script http-wordpress-brute $host -oN $output.txt
+}
+
+top-ports() {
+    nmap --top-ports 1000 -v -T$speed $host -oN $output.txt
+}
+
+ftp-bf(){
+    nmap --script ftp-brute -p 21 -T$speed $host -oN $output.txt
 }
 
 
