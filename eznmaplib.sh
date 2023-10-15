@@ -55,7 +55,7 @@ top-ports() {
 }
 
 ftp-bf(){
-    nmap --script ftp-brute -p 21 -T$speed $host -oN $output.txt
+    nmap --script ftp-brute -v -p 21 -T$speed $host -oN $output.txt
 }
 
 
