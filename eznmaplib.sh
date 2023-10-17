@@ -51,7 +51,7 @@ basic-wp-bf() {
 }
 
 top-ports() {
-    nmap --top-ports 1000 -v -T$speed $host -oN $output.txt
+    nmap --top-ports 1000 -v -Pn -T$speed $host -oN $output.txt
 }
 
 ftp-bf(){
