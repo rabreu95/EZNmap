@@ -7,7 +7,7 @@ echo "$opener1"
 
 echo "$opener2"
 echo " "
-while True;
+while :
 do
     echo "Please enter the host" 
     read -p ">> " host
